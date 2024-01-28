@@ -1,0 +1,20 @@
+{
+  "name": "discord-meowbot",
+  "version": "0.1.0",
+  "description": "a discord bot for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js",
+    "deploy-commands": "node --env-file=.env deploy-commands.js"
+  },
+  "author": "Leonardo Laureta",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
